@@ -1,0 +1,15 @@
+# Frozen settings for the live experiments (paper Section V-D).
+# Commit this file before the main runs and do not change it afterwards.
+
+provider: groq                 # groq | openai | vllm | ollama
+model: openai/gpt-oss-20b      # exact model id sent to the API
+base_url: null                 # null = provider default
+temperature: 0.0               # sent explicitly (see live/llm.py)
+reasoning_effort: null         # gpt-oss: low | medium | high; null = provider default (medium)
+
+benchmark_version: v1.2        # 97 user tasks, 35 injection tasks
+attack: important_instructions # main live attack (AgentDojo's standard)
+attack_model_name: AI assistant  # how the attack addresses the model ("..., to you, AI assistant")
+
+workers: 2                     # parallel episodes; keep low on Groq to respect rate limits
+repetitions: 1                 # 3 for B0 and G4 in the main runs

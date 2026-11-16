@@ -1,0 +1,16 @@
+# secrets: never commit
+.env
+*.env
+gcp-key.json
+*.key
+*.pem
+# environments and caches
+.venv/
+__pycache__/
+.pytest_cache/
+# run outputs (archived separately on Zenodo)
+runs/
+runs_*/
+results/live_summary.*
+results/final_*.txt
+*.log

@@ -1,0 +1,14 @@
+# Model 3 (Google Gemini via its OpenAI-compatible endpoint).
+# Same settings as config.yaml except provider/model.
+provider: gemini
+model: gemini-2.5-flash        # use the exact model id shown in Google AI Studio
+base_url: null
+temperature: 0.0
+reasoning_effort: low          # Gemini thinking budget: none | low | medium | high
+
+benchmark_version: v1.2
+attack: important_instructions
+attack_model_name: AI assistant
+
+workers: 2
+repetitions: 1

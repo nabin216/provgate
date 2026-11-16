@@ -1,0 +1,10 @@
+provider: vertex
+model: google/gemini-3.8-flash
+base_url: https://aiplatform.googleapis.com/v1/projects/YOUR_PROJECT_ID/locations/global/endpoints/openapi
+temperature: 0.0
+reasoning_effort: low
+benchmark_version: v1.2
+attack: important_instructions
+attack_model_name: AI assistant
+workers: 2
+repetitions: 1

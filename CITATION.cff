@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ProvGate: a layered runtime security gateway against prompt injection and unauthorized tool use in LLM agents"
+authors:
+  - family-names: Nabin
+    given-names: Asadur Zaman
+    affiliation: "University of the West of Scotland"
+version: 1.0.0
+date-released: 2026-11-16
+license: MIT
+repository-code: "https://github.com/nabin216/provgate"
+keywords: [prompt injection, LLM agents, AI security, AgentDojo, runtime monitoring]
