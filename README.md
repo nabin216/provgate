@@ -1,5 +1,7 @@
 # ProvGate
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24289759.svg)](https://doi.org/10.5281/zenodo.24289759)
+
 **A layered runtime security gateway against prompt injection and unauthorized tool use in LLM agents.**
 
 This repository contains the code, policies and analysis scripts for the paper
@@ -79,7 +81,7 @@ Raw episode logs and gateway decision logs for all live runs are archived separa
 
 ## Citation
 
-See `CITATION.cff`.
+See `CITATION.cff`. Archived version: [doi:10.5281/zenodo.24289759](https://doi.org/10.5281/zenodo.24289759) (v1.0.0, as used in the paper).
 
 ## Licence
 

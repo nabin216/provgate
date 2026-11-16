@@ -8,5 +8,6 @@ authors:
 version: 1.0.0
 date-released: 2026-11-16
 license: MIT
+doi: 10.5281/zenodo.24289759
 repository-code: "https://github.com/nabin216/provgate"
 keywords: [prompt injection, LLM agents, AI security, AgentDojo, runtime monitoring]
