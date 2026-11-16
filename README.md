@@ -77,7 +77,7 @@ Other providers: `--config-file config_gemini.yaml` (Gemini API, `GEMINI_API_KEY
 
 ## Data
 
-Raw episode logs and gateway decision logs for all live runs are archived separately (see the paper's Data and Code Availability statement).
+Raw episode logs and gateway decision logs for all live runs: [doi:10.5281/zenodo.24290215](https://doi.org/10.5281/zenodo.24290215) (5.4 MB, CC-BY-4.0).
 
 ## Citation
 
