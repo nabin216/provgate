@@ -52,6 +52,8 @@ pip install -r requirements.txt
 python -m pytest -q tests                 # 41 tests, no API key needed
 ```
 
+To reproduce the exact environment used for the paper's runs, install `requirements_exact.txt` instead (see the note at its top for the CPU build of PyTorch).
+
 Offline (no API calls, scripted worst-case agent):
 
 ```bash
